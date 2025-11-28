@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Lethe.TXT Logo" width="200">
+</p>
+
 # 🔒 Lethe.TXT
 
 **Anonimizador de Documentos** - Proteja dados sensíveis em seus arquivos de forma simples e reversível.
