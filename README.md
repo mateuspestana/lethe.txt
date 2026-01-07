@@ -63,6 +63,18 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
+### Guia rápido no Windows
+
+No Prompt de Comando ou PowerShell:
+```cmd
+cd LetheTXT
+uv venv .venv
+.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+run_streamlit.bat
+```
+Se preferir executar manualmente, ative o ambiente com `.venv\Scripts\activate.bat` e rode `streamlit run app.py`.
+
 ## 💻 Uso
 
 ### Interface Web (Streamlit)
@@ -192,4 +204,3 @@ python benchmark_parsers.py
 ## 📄 Licença
 
 Este projeto é de código aberto. Use com responsabilidade.
-
